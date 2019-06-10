@@ -33,7 +33,8 @@ connectedCallback()
 }
 
 // Called when custom element is removed
-disconnectedCallback() {
+disconnectedCallback()
+{
     if (this.timer) {
         clearInterval(this.timer);
         this.timer = null;
