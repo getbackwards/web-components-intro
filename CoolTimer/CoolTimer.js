@@ -1,6 +1,7 @@
 class CoolTimer extends HTMLElement {}
 
-constructor() {
+constructor()
+    {
     // Always call parent constructor first
     super();
 
